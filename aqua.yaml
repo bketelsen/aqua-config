@@ -4,18 +4,10 @@ registries:
 
 packages:
 # init: a
-- name: ahmetb/kubectl-tree@v0.4.1
-- name: ahmetb/kubectx@v0.9.4
-- name: ahmetb/kubens
-  version: v0.9.4 # renovate: depName=ahmetb/kubens
-- name: aquasecurity/tfsec@v0.61.3
-- name: argoproj/argo-rollouts@v1.1.1
 
 # init: b
 
 # init: c
-- name: CircleCI-Public/circleci-cli@v0.1.16535
-- name: cli/cli@v2.3.0
 - name: cue-lang/cue@v0.4.0
 
 # init: d
@@ -24,53 +16,34 @@ packages:
 # init: e
 
 # init: f
-- name: flosell/iam-policy-json-to-terraform@1.8.0
-- name: fujiwara/lambroll@v0.12.3
 
 # init: g
-- name: github/hub@v2.14.2
 - name: gohugoio/hugo@v0.89.4
-- name: GoogleCloudPlatform/terraformer@0.8.17
 - name: golangci/golangci-lint@v1.43.0
 - name: goreleaser/goreleaser@v1.1.0
 - name: gsamokovarov/jump@v0.40.0
 
 # init: h
 - name: hairyhenderson/gomplate@v3.10.0
-- name: helm/helm@v3.7.1
-- name: homeport/dyff@v1.4.6
 
 # init: i
-- name: int128/ghcp@v1.13.0
 
 # init: j
 - name: junegunn/fzf@0.28.0
 
 # init: k
 - name: koalaman/shellcheck@v0.8.0
-- name: kubernetes/kubectl
-  version: v1.22.0 # TODO renovate
-- name: kubernetes/minikube@v1.24.0
-- name: kubernetes-sigs/kind@v0.11.1
-- name: kubernetes-sigs/krew@v0.4.2
-- name: kubernetes-sigs/kustomize
-  version: kustomize/v3.9.4 # TODO renovate
 
 # init: l
-- name: lima-vm/lima@v0.7.4
 
 # init: m
 - name: mikefarah/yq@v4.16.1
-- name: minamijoyo/hcledit@v0.2.2
-- name: minamijoyo/tfmigrate@v0.2.13
 - name: mvdan/gofumpt@v0.2.0
 - name: mvdan/sh@v3.4.1
 
 # init: n
 
 # init: o
-- name: open-policy-agent/conftest@v0.28.3
-- name: open-policy-agent/opa@v0.35.0
 
 # init: p
 - name: peco/peco@v0.5.10
@@ -78,26 +51,12 @@ packages:
 # init: q
 
 # init: r
-- name: roboll/helmfile@v0.142.0
 
 # init: s
-- name: stackrox/kube-linter@0.2.5
 - name: stedolan/jq
   version: jq-1.6 # TODO renovate
-- name: stern/stern@v1.20.1
-- name: suzuki-shunsuke/akoi@v2.2.1
-- name: suzuki-shunsuke/ci-info@v2.0.3
-- name: suzuki-shunsuke/circleci-config-merge@v1.1.1
-- name: suzuki-shunsuke/cmdx@v1.6.1
-- name: suzuki-shunsuke/git-rm-branch@1.0.5
-- name: suzuki-shunsuke/github-comment@v4.0.1
-- name: suzuki-shunsuke/matchfile@v1.0.0
-- name: suzuki-shunsuke/tfcmt@v2.1.0
 
 # init: t
-- name: terraform-linters/tflint@v0.33.1
-- name: tfmigrator/cli@v0.2.1
-- name: tfutils/tfenv@v2.2.2
 
 # init: u
 
